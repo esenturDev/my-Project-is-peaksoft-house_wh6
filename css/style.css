@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.lyout {
+  width: 100%;
+  display: flex;
+}
+.nur {
+  position: relative;
+  margin: 20px 30px;
+  color: #0a0ab3;
+  font-weight: 900;
+}
+.nur::after{
+  content: "";
+  position: absolute;
+  z-index: 10;
+  right: -15px;
+  top: -10px;
+  width: 10px;
+  height: 10px;
+  background-color: #ff0000;
+  border-radius: 50%;
+}
+
+.Esko{
+  display: flex;
+}
+
+.box{
+  background-color: #d7d7d7;
+}
+
+.Esko{
+  display: flex;
+}
+
+main {
+  width: 100%;
+  /* background-color:rgba(245, 245, 220, 0.956); */
+  height: 100vh;
+}
+.header_profile {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  background: #d7d7d7;
+}
+.header_teacher {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+/* main */
+main .content {
+  border-radius: 10px;
+}
+main .content .cards {
+  display: flex;
+  justify-content: space-between;
+}
+main .content .cards .card {
+  width: 100%;
+  max-width: 250px;
+  background-color:rgba(245, 245, 220, 0.629);
+  display: inline-block;
+  border: 1px solid rgba(245, 245, 220, 0.629);
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+}
+main .content .cards .card img {
+  width: 100%;
+  height: auto;
+}
+main .content .cards .card .title {
+  display: flex;
+  justify-content: space-between;
+}
+.threepoint {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.threepoint1 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+main .content .card {
+  display: flex;
+  justify-content: space-between;
+}
+main .content .card .button{
+  display: flex;
+  justify-content: flex-end;
+}
+/* img {
+  margin-left: 180px;
+} */
